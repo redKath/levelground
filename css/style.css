@@ -12,6 +12,10 @@
 /*******************************************/
 @import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   background: #66768A;
   font-family: 'Helvetica Neue', sans-serif;
@@ -33,15 +37,21 @@ nav img {
 nav ul {
   display: flex;
   justify-content: space-evenly;
+
+}
+
+ul {
   padding-left: 0;
 }
 
-nav li {
+nav li,
+li {
   list-style: none;
   margin: 0 10px;
 }
 
-nav li a {
+nav li a,
+a {
   text-decoration: none;
   color: #FAFBFB;
 }
@@ -53,6 +63,57 @@ nav img+a {
   color: #66768A;
   padding: 8px;
   border-radius: 5px;
+}
+
+main,
+section {
+  text-align: center;
+}
+
+main {
+  color: #F1F1F1;
+
+
+}
+
+main h1 {
+  font-size: 6rem;
+}
+
+a,
+p {
+  font-size: 1.5rem;
+}
+
+
+main p {
+  width: 50%;
+  margin: 35px auto;
+}
+
+main i {
+  font-size: 3rem;
+}
+
+main ul li:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+main ul li:first-child * {
+  margin: 0 5px;
+}
+
+main ul li+li {
+  margin: 50px 0;
+  font-style: italic;
+
+}
+
+main ul li+li a {
+  color: #434756;
 }
 
 /******************************************
