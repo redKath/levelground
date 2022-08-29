@@ -78,6 +78,7 @@ main {
 
 main h1 {
   font-size: 6rem;
+  margin: 2.67em 0 1.7em 0;
 }
 
 a,
@@ -117,6 +118,7 @@ main ul li+li a {
 }
 
 .why {
+
   background: #F1F1F1;
 
 }
@@ -131,7 +133,8 @@ main ul li+li a {
   padding-bottom: 100px;
 }
 
-.why h2 {
+.why h2,
+.volunteerWithUs h2 {
   padding-top: 100px;
   font-size: 4rem;
 }
@@ -143,20 +146,48 @@ main ul li+li a {
 }
 
 .visitAndHaveUs>* {
-  margin: 50px 0;
+  margin: 100px 0;
 }
 
 
 .visitAndHaveUs div {
-  width: 100px;
-  height: 50px;
+  width: 350px;
+  height: 150px;
   margin: auto;
   background: #66768A;
 }
 
-.visitAndHaveUs p {
+.visitAndHaveUs p,
+.volunteerWithUs p {
   width: 50%;
-  margin: auto;
+  margin: 0 auto 50px auto;
+
+}
+
+.visitAndHaveUs a,
+.volunteerWithUs a {
+  margin-top: 20px;
+  border: #434756 1px solid;
+  color: #434756;
+  padding: 10px 30px;
+}
+
+.visitAndHaveUs h3 {
+  font-size: 2.5em;
+}
+
+.volunteerWithUs {
+  background: #FAFBFB;
+  padding: 50px 0 150px 0;
+}
+
+footer>* {
+  display: flex;
+}
+
+footer section>* {
+  display: flex;
+  flex-direction: column;
 }
 
 /******************************************
