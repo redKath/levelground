@@ -183,33 +183,49 @@ main ul li+li a {
 
 footer {
   background: #161F2A;
-  padding-top: 30px;
-}
-
-footer:first-child,
-footer:nth-child(2) {
+  padding: 30px 0 10px 0;
   display: flex;
-  width: 500px;
-
+  /* width: 500px; */
+  justify-content: space-between;
 }
+
 
 footer section>* {
   text-align: left;
   margin: 0 50px;
 
+
+}
+
+.levelGroundMMA>* {
+  display: flex;
+  flex-direction: column;
+  color: #FAFBFB;
+  margin: 0 0 10px 0;
+  /* margin-bottom: 10px; */
+
+}
+
+.llg,
+.llg a {
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 .address {
-  display: block;
-  text-align: right;
+  font-weight: 400;
 }
-
 
 footer ul {
   display: flex;
   flex-direction: row;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+footer a,
+footer h6 {
+  font-size: 1.25rem;
 }
 
 footer li:first-child {
@@ -223,7 +239,6 @@ footer i {
 
 footer h6 {
   color: #434756;
-  font-size: 1.25rem;
   margin-top: 10px;
   margin-bottom: 5px;
 }
@@ -231,17 +246,17 @@ footer h6 {
 .endFooter {
   height: 50px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   color: #FAFBFB;
   margin: 0 50px;
   padding-top: 10px;
   align-items: center;
+  background: #161F2A;
   border-top: 1px solid #FAFBFB;
 }
 
-.endFooter * {
-  margin: 0;
+footer+section {
+  background: #161F2A;
 }
 
 .endFooter img {
