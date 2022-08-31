@@ -1,6 +1,6 @@
 # Level Ground Mixed Martial Arts Landing Page
 
-This is a website for a Level Ground Martial Arts. I built this to practice my HTML and CSS skills after completing a few classes in [#100Devs](https://leonnoel.com/100devs/).
+This is a website for Level Ground Mixed Martial Arts. I built this to practice my HTML and CSS skills after completing a few classes in [#100Devs](https://leonnoel.com/100devs/).
 
 ## Table of contents
 
