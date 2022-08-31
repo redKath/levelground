@@ -266,3 +266,58 @@ footer+section {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+/* Media queries */
+
+@media (min-width:320px) and (max-width: 480px) {
+
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  nav {
+    margin: 0 15px;
+  }
+
+  main h1 {
+    font-size: 3.35rem;
+    margin: 1.67em 0 1.7em 0;
+  }
+
+  .volunteerWithUs h2 {
+    font-size: 3.35rem;
+  }
+
+  .visitAndHaveUs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer section>*,
+  .endFooter {
+
+    margin: 0 25px;
+  }
+
+  .second {
+    width: 50px;
+  }
+
+  .endFooter p {
+    font-size: .65rem;
+  }
+
+  .endFooter img {
+    height: 70%;
+  }
+
+}
+
+@media (min-width:481px) and (max-width: 830px) {
+  .endFooter p {
+    text-align: left;
+    font-size: 1.25rem;
+  }
+}
