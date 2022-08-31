@@ -295,6 +295,10 @@ footer+section {
     flex-direction: column;
   }
 
+  .visitAndHaveUs div {
+    width: 275px;
+  }
+
   footer section>*,
   .endFooter {
 
